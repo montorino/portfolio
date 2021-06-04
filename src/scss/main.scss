@@ -1,0 +1,30 @@
+@import 'test';
+
+
+h1{
+  color: blueviolet;
+  display: inline-block;
+  padding: 15px;
+  font-family: Broadway;
+  @media (max-width: 600px) {
+    color: aqua;
+  }
+  @media (max-width: 900px) {
+    color: gold;
+  }
+}
+
+body{
+  background-color: coral;
+
+  
+  @media (max-width: 600px) {
+    background-color: blueviolet;
+  }
+
+  @media (max-width: 900px) {
+    background-color: darkcyan;
+    text-align: right;
+  }
+
+}
