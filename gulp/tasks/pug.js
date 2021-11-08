@@ -6,12 +6,12 @@ import gulp from 'gulp';
 import config from '../config';
 
 export const pugBuild = () => (
-  gulp.src(`${config.src.root}/*.html`)
+  gulp.src(`${config.src.root}/*.+(html|php)`)
     .pipe(gulp.dest(config.dest.html))
 )
 
 
 export const pugWatch = () => (
-  gulp.watch(`${config.src.root}/*.html`, pugBuild)
+  gulp.watch(`${config.src.root}/*.+(html|php)`, pugBuild)
 )
 

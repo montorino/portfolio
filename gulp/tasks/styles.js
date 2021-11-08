@@ -8,21 +8,20 @@ import autoprefixer from 'gulp-autoprefixer';
 import gcmq from 'gulp-group-css-media-queries';
 import cleanCSS from 'gulp-clean-css';
 import rename from 'gulp-rename';
-import sourcemaps from 'gulp-sourcemaps';
 import gulpif from 'gulp-if';
 import config from '../config';
 
 
 export const sassBuild = () => (
-gulp.src(`${config.src.sass}/main.scss`)
-    .pipe(gulpif(config.isDev,sourcemaps.init()))
-    .pipe(sass())
+gulp.src(`${config.src.sass}/main.scss`, {sourceMaps: config.isDev})
+    .pipe(sass({
+        includePaths: ['./node_modules']
+    }))
     .pipe(gulpif(config.isProd, gcmq()))
     .pipe(gulpif(config.isProd, autoprefixer()))
     .pipe(gulpif(config.isProd, cleanCSS({level: 2})))
     .pipe(rename({suffix: ".min"}))
-    .pipe(gulpif(config.isDev, sourcemaps.write()))
-    .pipe(gulp.dest(config.dest.css))
+    .pipe(gulp.dest(config.dest.css), {sourceMaps: config.isDev})
 );
 
 export const sassWatch = () => (

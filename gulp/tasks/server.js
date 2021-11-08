@@ -7,9 +7,7 @@ import config from '../config';
 
 const server = (callback) => {
   browserSync.create().init({
-    server: {
-      baseDir: config.dest.root
-    },
+      proxy: "Portfolio",
     files: [
       `${config.dest.html}/*.html`,
       `${config.dest.css}/*.css`,

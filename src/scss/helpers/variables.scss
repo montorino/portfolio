@@ -1,0 +1,56 @@
+$theme-colors: (
+        'primary': #2ac,
+        'secondary': #4b0082,
+        'white': #d79,
+);
+
+$break_sm: 576px;
+$break_md: 767px;
+$break_lg: 992px;
+$break_xl: 1200px;
+
+$grid-breakpoints: (
+        sm: $break_sm,
+        md: $break_md,
+        lg: $break_lg,
+        xl: $break_xl,
+);
+
+$font-family-primary: 'Raleway';
+$font-family-secondary: 'Raleway';
+
+$font-size-base: 1rem;
+
+$font-size-headings: (
+        h1: $font-size-base *3,
+        h2: $font-size-base *2.5,
+        h3: $font-size-base *2,
+        h4: $font-size-base *1.5,
+        h5: $font-size-base *1.25,
+        h6: $font-size-base
+);
+
+:root{
+  --skin-color: #fb839e;
+  --skin-color1: #ec9412;
+  --skin-color2: #1fc586;
+  --skin-color3: #2eb1ed;
+  --skin-color4: #cc3a3b;
+  --bg-black-900: #000;
+  --bg-black-100: #ddd;
+  --bg-black-50: #eff0f4;
+  --bg-opacity: rgba(255,255,255,0.5);
+  --text-black-900: #000;
+  --text-black-700: #555;
+  --text-black-600: #666;
+  --text-black-300: #bbb;
+  --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+  --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+  --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+  --inner-shadow-0: inset 0px 0px 0px #d0d0d0, inset 0px 0px 0px #f8f8f8;
+}
+
+
+
+
+

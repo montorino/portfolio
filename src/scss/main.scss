@@ -1,30 +1,65 @@
-@import 'test';
+@import "./helpers/variables";
+@import "./helpers/functions";
+@import "./helpers/mixins";
+@import "./base/base";
+@import "./components/preloader";
+@import "./components/header";
+@import "./components/navMenu";
+@import "./components/home";
+@import "./components/about";
+@import "./components/services";
+@import "./components/portfolio";
+@import "./components/testimonial";
+@import "./components/contacts";
+@import "./components/style-switcher";
+@import "./components/effects";
+@import "./components/animation";
 
 
-h1{
-  color: blueviolet;
-  display: inline-block;
-  padding: 15px;
-  font-family: Broadway;
-  @media (max-width: 600px) {
-    color: aqua;
-  }
-  @media (max-width: 900px) {
-    color: gold;
-  }
-}
 
-body{
-  background-color: coral;
 
-  
-  @media (max-width: 600px) {
-    background-color: blueviolet;
-  }
 
-  @media (max-width: 900px) {
-    background-color: darkcyan;
-    text-align: right;
-  }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
