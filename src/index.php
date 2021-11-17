@@ -289,7 +289,7 @@
             <div class="filter-portfolio" id="filter-portfolio">
                 <span class="filter-item outer-shadow active" data-target="all">all</span>
                 <span class="filter-item" data-target="landing-page">Landing Pages</span>
-                <span class="filter-item" data-target="mobile-app">Web Sites</span>
+                <span class="filter-item" data-target="web-site">Web Sites</span>
                 <span class="filter-item" data-target="e-commerce">e commerce</span>
             </div>
         </div>
@@ -322,7 +322,7 @@
                     <div class="portfolio-item-img">
                         <img src="./images/portfolio/thumb/portfolio-thumb.jpg" alt="portfolio">
                         <p class="popup-btn"><a href="#" class="popup-open"><i class="icon-play3"></i></a></p>
-                        <a href="https://github.com/montorino/kaspersky" target="_blank">view project at github</a>
+                        <a href="https://github.com/montorino/portfolio" target="_blank">view project at github</a>
                     </div>
 
                     <p class="portfolio-item-title">Portfolio</p>
@@ -333,6 +333,29 @@
                         <p>
                             <video controls="" width="100%" height="100%">
                                 <source src="video/2.mp4" type="video/mp4">
+                            </video>
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web-site">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="./images/portfolio/thumb/blog-thumb.jpg" alt="portfolio">
+                        <p class="popup-btn"><a href="#" class="popup-open"><i class="icon-play3"></i></a></p>
+                        <a href="https://github.com/montorino/phpAjaxMessages" target="_blank">view project at github</a>
+                    </div>
+
+                    <p class="portfolio-item-title">Simple Blog</p>
+                </div>
+                <div class="popup-bg hide">
+                    <div class="popup">
+                        <div class="popup-close">✖</div>
+                        <p>
+                            <video controls="" width="100%" height="100%">
+                                <source src="video/3.mp4" type="video/mp4">
                             </video>
                         </p>
 

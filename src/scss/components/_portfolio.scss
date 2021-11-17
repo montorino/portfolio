@@ -124,6 +124,7 @@ $videoheightLg: 400px;
       }
       &-img{
         position: relative;
+        min-height: 160px;
         & img{
           border-radius: 5px;
           width: 100%;
